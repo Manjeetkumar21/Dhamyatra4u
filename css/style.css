@@ -770,7 +770,7 @@ nav.navbar .container.padding {
 #myOverlay form {
 	width: 85%;
 	display: block;
-	margin: 0 auto;`
+	margin: 0 auto;
 }
 
 .overlay button i.fa{
@@ -819,7 +819,7 @@ nav.navbar .container.padding {
 
 #sidebar #dismiss {
 	position:absolute;
-	top:-10px;
+	top: 10px;
 	right:6px;
 	width:100%;
 	text-align:right;
@@ -839,32 +839,15 @@ nav.navbar .container.padding {
     line-height:1;
 }
 
-#sidebar #web-name{
-	text-transform:uppercase;
-	text-align:center;
-	padding:40px 0px;
-	margin-bottom:0px;
-	font-size:22px;
-	font-weight:bold;
-	position:relative;
+.sidenav #dismiss .btn{
+	color: black !important;
 }
 
-#sidebar #web-name::after{
-	position:absolute;
-	content:'';
-	display:block;
-	height:65px;
-	width:140px;
-	top:-20px;
-	right:-40px;
+.side-logo{
+
+	padding: 20px 10px;
 }
 
-#sidebar #web-name .fa{
-	margin-right:8px;
-	font-size:30px;
-	position:relative;
-	top:2px;	
-}
 
 .sidenav {
     height: 100%;
