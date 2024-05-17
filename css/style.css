@@ -894,9 +894,6 @@ nav.navbar .container.padding {
 
 /* New */
 
-#main-menu .list-group .mega-sub-menu > a .arrow{
-	
-}
 
 #main-menu .list-group .mega-sub-menu .mega-sub-menu-links > a{
 	padding-left:55px;
@@ -5309,12 +5306,6 @@ nav.navbar .container.padding {
 	font-size: 30px;
 }
 
-.card-block ul li.card-links{
-	/*float:right;*/
-	/*text-align: right;*/
-	/*margin: 0 0 0 auto;*/
-
-}
 
 .card-block ul li.card-links .btn{
 	margin-left:25px;
