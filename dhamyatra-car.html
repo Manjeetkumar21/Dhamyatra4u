@@ -1,177 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Char Dham Car Registration Guide</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="icon" href="images/favicon.png" type="image/x-icon">
-    
-    <!-- Google Fonts -->	
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i%7CMerriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-    
-    <!-- Bootstrap Stylesheet -->	
-            <link rel="stylesheet" href="css/bootstrap-5.3.2.min.css">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Char Dham Car Registration Guide</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i%7CMerriweather:300,300i,400,400i,700,700i,900,900i"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="css/bootstrap-5.3.2.min.css" />
 
     <!-- Sidebar Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
-    
-    <!-- Font Awesome Stylesheet -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-        
-    <!-- Custom Stylesheets -->	
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" id="cpswitch" href="css/orange.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/custom.css">
-    <link rel="stylesheet" href="css/kedarnathcss.css">
-  <style>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/jquery.mCustomScrollbar.min.css"
+    />
 
-    .yatra-by-car-section{
+    <!-- Font Awesome Stylesheet -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" id="cpswitch" href="css/orange.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/kedarnathcss.css" />
+    <style>
+      .yatra-by-car-section {
         margin-top: 20px;
         text-align: justify;
-    }
+      }
 
-    .yatra-by-car-section p{
-      color: black;
-    }
-    .container {
-      margin: 0 auto;
-      padding: 20px;
-    }
+      .yatra-by-car-section p {
+        color: black;
+      }
+      .yatra-by-car-section .container {
+        margin: 0 auto;
+        padding: 20px;
+      }
 
-    h1, h2 {
-      font-weight: bold;
-    }
+      .yatra-by-car-section h1,
+      h2 {
+        font-weight: bold;
+      }
 
-    ul {
-      list-style-type: none;
-      padding-left: 0;
-    }
+      .yatra-by-car-section ul {
+        list-style-type: none;
+        padding-left: 0;
+      }
 
-    ul li {
-      margin-bottom: 10px;
-    }
+      .yatra-by-car-section ul li {
+        margin-bottom: 10px;
+      }
 
-    ul li i {
-      margin-right: 10px;
-      color: #212529;
-    }
+      .yatra-by-car-section ul li i {
+        margin-right: 10px;
+        color: #212529;
+      }
 
-    ol{
-      font-family: 'Lato', sans-serif;
-      font-size: 14px;
-      line-height: 1.5em;
-    }
+      ol {
+        font-family: "Lato", sans-serif;
+        font-size: 14px;
+        line-height: 1.5em;
+      }
 
-    .img-container {
-      max-width: 100%;
-    }
+      .yatra-by-car-section .img-container {
+        max-width: 100%;
+      }
 
-    .card {
-      border: none;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      transition: box-shadow 0.3s ease-in-out;
-    }
+      .yatra-by-car-section .card {
+        border: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease-in-out;
+      }
 
-    .card:hover {
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    }
+      .yatra-by-car-section .card:hover {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      }
 
-    .card-header {
-      background-color: #ffa500;
-      color: #fff;
-      font-weight: bold;
-      padding: 15px;
-    }
+      .yatra-by-car-section .card-header {
+        background-color: #ffa500;
+        color: #fff;
+        font-weight: bold;
+        padding: 15px;
+      }
 
-    .card-body {
-      padding: 20px;
-    }
-  </style>
-  
-</head>
-<body>
+      .yatra-by-car-section .card-body {
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
     <section class="yatra-by-car-section">
-        <div class="container">
-          <div class="page-heading">
-            <h2>Char Dham Yatra by Air</h2>
-            <hr class="heading-line" />
+      <div class="container">
+        <div class="page-heading">
+          <h2>Char Dham Yatra by Air</h2>
+          <hr class="heading-line" />
         </div>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="img-container mb-4">
-                  <img src="images/chardham_guide.jpg" class="img-fluid" alt="Char Dham Car Registration Guide">
-                </div>
-              </div>
-              <div class="col-md-6">
-                <p>The Char Dham Yatra is a sacred pilgrimage for Hindus, including the holy sites of Yamunotri, Gangotri, Kedarnath, and Badrinath. To legally operate vehicles on this important route, strict rules must be followed. Two key permits are needed: the Green Card and the Trip Card.</p>
-                <p>These permits are issued by the Transport Department or Regional Transport Offices. They confirm that commercial vehicles are allowed to travel on the Char Dham circuit. Getting these permits properly is crucial for ensuring pilgrims can have a safe and meaningful spiritual journey.</p>
-              </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="img-container mb-4">
+              <img
+                src="images/chardham_guide.jpg"
+                class="img-fluid"
+                alt="Char Dham Car Registration Guide"
+              />
             </div>
-            <div class="row mt-4">
-              <div class="col-md-12">
-                <div class="card">
-                  <div class="card-header">Green Card for Char Dham Yatra</div>
-                  <div class="card-body">
-                    <p>A green card is a document that includes details about a vehicle's paperwork, such as its fitness certificate, road permit, tax payment receipt, insurance certificate, and pollution certificate. The Green Card permit is required for commercial vehicles traveling in the state of Uttarakhand. You can get the Green card after a physical inspection at any transport office in Uttarakhand. Green cards are issued once and are valid until either November 30th or for 30 days, whichever comes first. During the Green card's valid period, you can make an unlimited number of trips for the entire Char Dham Yatra. It is mandatory to renew the green card once it expires.</p>
-                  </div>
-                </div>
-                <div class="card mt-4">
-                  <div class="card-header">Documents & Fee Required for Green Card</div>
-                  <div class="card-body">
-                    <p>Below are the documents necessary for acquiring the Green Card permit on the Char Dham route:</p>
-                    <ul>
-                      <li><i class="fas fa-check"></i>Registration certificate</li>
-                      <li><i class="fas fa-check"></i>Fitness certificate</li>
-                      <li><i class="fas fa-check"></i>Uttarakhand State Road Tax Deposit Certificate</li>
-                      <li><i class="fas fa-check"></i>Insurance certificate of Uttarakhand state</li>
-                      <li><i class="fas fa-check"></i>Pollution control certificate</li>
-                      <li><i class="fas fa-check"></i>Insurance certificate of the vehicle</li>
-                    </ul>
-                    <p>Green Card Fee<br>
-                    The fee for the Green Card, according to the vehicle type, is provided below. The fee for the Green Card must be paid by the vehicle owner online at the time of application:</p>
-                    <ol>
-                      <li>Light motor vehicles: INR 600</li>
-                      <li>Medium motor vehicle: INR 800</li>
-                      <li>Heavy motor vehicle: INR 600</li>
-                    </ol>
-                  </div>
-                </div>
-                <div class="card mt-4">
-                  <div class="card-header">Trip Card for Char Dham Yatra</div>
-                  <div class="card-body">
-                    <p>The trip card is an important part of the Char Dham Yatra. It serves as a record of the pilgrimage journey. It includes information like the travel date, bus license details, and passenger details. Importantly, each trip card is only valid for one round trip, so you need to get a new one for each additional journey. Before applying for the Trip Card, you must first register for the Char Dham Yatra on Yatra.gross, which can be easily done by registering at <a href="https://regis.uttarakhandtravellers.gov.in/"><b><i>regis.uttarakhandtravellers.gov.in/</i></b></a> There is no fee to obtain the Trip Card and it can be gotten online easily. This careful process ensures proper documentation and following the rules throughout the pilgrimage, helping to provide a safe and well-organized travel experience for all pilgrims.</p>
-                  </div>
-                </div>
-                <div class="card mt-4">
-                  <div class="card-header">Documents Required for Trip Card</div>
-                  <div class="card-body">
-                    <p>Below are the documents necessary for acquiring the Trip Card permit on the Char Dham route:</p>
-                    <ul>
-                      <li><i class="fas fa-check"></i>Vehicle pass</li>
-                      <li><i class="fas fa-check"></i>Driving License</li>
-                      <li><i class="fas fa-check"></i>Blank pie-chart on driver's license</li>
-                      <li><i class="fas fa-check"></i>Uttarakhand state permit</li>
-                      <li><i class="fas fa-check"></i>Tax payment certificate of Uttarakhand state</li>
-                      <li><i class="fas fa-check"></i>Passengers list traveling in the vehicle in the prescribed format</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="card mt-4">
-                <div class="card-header">
-                    How to Apply Green Card & Trip Card for Char Dham Yatra
-                </div>
-                <div class="card-body">
-                    <p>To apply for the Green Card and Trip Card for the Char Dham Yatra, visit the official website of the Transport Department at www.greencard.uk.gov.in. The Green Card can be obtained through an online application from any Regional Transport Office (RTO) or Sub-Regional Transport Office (SRTO) within Uttarakhand. After a physical inspection by the road inspection team, the Green Card can be received from any Transport office in Uttarakhand. Trip Cards for all types of vehicles are issued exclusively online.</p>
-                    <p>Important Note: Private vehicles do not need to get a Green Card or Trip Card for the Char Dham Yatra. However, it is mandatory for even private vehicles to complete Char Dham registration if anyone is traveling in that vehicle. This registration helps follow the rules and allows families going on the pilgrimage to have a smooth journey.</p>
-                </div>
-            </div>
-            </div>
-            </div>
+          </div>
+          <div class="col-md-6">
+            <p>
+              The Char Dham Yatra is a sacred pilgrimage for Hindus, including
+              the holy sites of Yamunotri, Gangotri, Kedarnath, and Badrinath.
+              To legally operate vehicles on this important route, strict rules
+              must be followed. Two key permits are needed: the Green Card and
+              the Trip Card.
+            </p>
+            <p>
+              These permits are issued by the Transport Department or Regional
+              Transport Offices. They confirm that commercial vehicles are
+              allowed to travel on the Char Dham circuit. Getting these permits
+              properly is crucial for ensuring pilgrims can have a safe and
+              meaningful spiritual journey.
+            </p>
+          </div>
         </div>
+        <div class="row mt-4">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-header">Green Card for Char Dham Yatra</div>
+              <div class="card-body">
+                <p>
+                  A green card is a document that includes details about a
+                  vehicle's paperwork, such as its fitness certificate, road
+                  permit, tax payment receipt, insurance certificate, and
+                  pollution certificate. The Green Card permit is required for
+                  commercial vehicles traveling in the state of Uttarakhand. You
+                  can get the Green card after a physical inspection at any
+                  transport office in Uttarakhand. Green cards are issued once
+                  and are valid until either November 30th or for 30 days,
+                  whichever comes first. During the Green card's valid period,
+                  you can make an unlimited number of trips for the entire Char
+                  Dham Yatra. It is mandatory to renew the green card once it
+                  expires.
+                </p>
+              </div>
+            </div>
+            <div class="card mt-4">
+              <div class="card-header">
+                Documents & Fee Required for Green Card
+              </div>
+              <div class="card-body">
+                <p>
+                  Below are the documents necessary for acquiring the Green Card
+                  permit on the Char Dham route:
+                </p>
+                <ul>
+                  <li><i class="fas fa-check"></i>Registration certificate</li>
+                  <li><i class="fas fa-check"></i>Fitness certificate</li>
+                  <li>
+                    <i class="fas fa-check"></i>Uttarakhand State Road Tax
+                    Deposit Certificate
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>Insurance certificate of
+                    Uttarakhand state
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>Pollution control certificate
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>Insurance certificate of the
+                    vehicle
+                  </li>
+                </ul>
+                <p>
+                  Green Card Fee<br />
+                  The fee for the Green Card, according to the vehicle type, is
+                  provided below. The fee for the Green Card must be paid by the
+                  vehicle owner online at the time of application:
+                </p>
+                <ol>
+                  <li>Light motor vehicles: INR 600</li>
+                  <li>Medium motor vehicle: INR 800</li>
+                  <li>Heavy motor vehicle: INR 600</li>
+                </ol>
+              </div>
+            </div>
+            <div class="card mt-4">
+              <div class="card-header">Trip Card for Char Dham Yatra</div>
+              <div class="card-body">
+                <p>
+                  The trip card is an important part of the Char Dham Yatra. It
+                  serves as a record of the pilgrimage journey. It includes
+                  information like the travel date, bus license details, and
+                  passenger details. Importantly, each trip card is only valid
+                  for one round trip, so you need to get a new one for each
+                  additional journey. Before applying for the Trip Card, you
+                  must first register for the Char Dham Yatra on Yatra.gross,
+                  which can be easily done by registering at
+                  <a href="https://regis.uttarakhandtravellers.gov.in/"
+                    ><b><i>regis.uttarakhandtravellers.gov.in/</i></b></a
+                  >
+                  There is no fee to obtain the Trip Card and it can be gotten
+                  online easily. This careful process ensures proper
+                  documentation and following the rules throughout the
+                  pilgrimage, helping to provide a safe and well-organized
+                  travel experience for all pilgrims.
+                </p>
+              </div>
+            </div>
+            <div class="card mt-4">
+              <div class="card-header">Documents Required for Trip Card</div>
+              <div class="card-body">
+                <p>
+                  Below are the documents necessary for acquiring the Trip Card
+                  permit on the Char Dham route:
+                </p>
+                <ul>
+                  <li><i class="fas fa-check"></i>Vehicle pass</li>
+                  <li><i class="fas fa-check"></i>Driving License</li>
+                  <li>
+                    <i class="fas fa-check"></i>Blank pie-chart on driver's
+                    license
+                  </li>
+                  <li><i class="fas fa-check"></i>Uttarakhand state permit</li>
+                  <li>
+                    <i class="fas fa-check"></i>Tax payment certificate of
+                    Uttarakhand state
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>Passengers list traveling in the
+                    vehicle in the prescribed format
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card mt-4">
+              <div class="card-header">
+                How to Apply Green Card & Trip Card for Char Dham Yatra
+              </div>
+              <div class="card-body">
+                <p>
+                  To apply for the Green Card and Trip Card for the Char Dham
+                  Yatra, visit the official website of the Transport Department
+                  at www.greencard.uk.gov.in. The Green Card can be obtained
+                  through an online application from any Regional Transport
+                  Office (RTO) or Sub-Regional Transport Office (SRTO) within
+                  Uttarakhand. After a physical inspection by the road
+                  inspection team, the Green Card can be received from any
+                  Transport office in Uttarakhand. Trip Cards for all types of
+                  vehicles are issued exclusively online.
+                </p>
+                <p>
+                  Important Note: Private vehicles do not need to get a Green
+                  Card or Trip Card for the Char Dham Yatra. However, it is
+                  mandatory for even private vehicles to complete Char Dham
+                  registration if anyone is traveling in that vehicle. This
+                  registration helps follow the rules and allows families going
+                  on the pilgrimage to have a smooth journey.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-</body>
+  </body>
 </html>
