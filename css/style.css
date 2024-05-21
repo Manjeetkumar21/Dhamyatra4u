@@ -62,7 +62,7 @@ p,ul,ol,a,.btn,span,input,select,textarea,label, table, .meta h2, blockquote, sm
 	font-family: 'Lato', sans-serif;
 }
 
-p,ul,ol{
+p,ul{
 	line-height:1.5em;
 	font-size:14px;
 }
