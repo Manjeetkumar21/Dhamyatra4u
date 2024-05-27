@@ -2898,7 +2898,7 @@ Author:			Star Travel
 
 @media (max-width: 767px) {
   #popup-ad .modal-body {
-    text-align: center;
+    text-align: left;
   }
 
   #popup-ad .modal-body .popup-ad-img {

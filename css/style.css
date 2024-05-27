@@ -4262,8 +4262,41 @@ nav.navbar .container.padding {
 		Popup Ad
    ----------------------------------------------------- */
 
+
+
+#popup-ad .bg-orange {
+    background-color: #ffa500 !important;
+}
+
+#popup-ad .text-white {
+    color: #ffffff !important;
+}
+
+#popup-ad .btn-orange {
+    background-color: #ffa500;
+	width: 100%;
+    color: #ffffff;
+}
+
+#popup-ad .btn-orange:hover {
+    background-color: #0a0909;
+    color: #ffffff;
+}
+
+#popup-ad .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#popup-ad .card-header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
 #popup-ad .modal-dialog{
- 	top:25%;
+ 	top:5%;
 }
 
 #popup-ad .modal-body{
